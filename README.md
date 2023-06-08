@@ -102,7 +102,9 @@ However, for the `post` and `patch` requests, you will need to use postman to te
    <hr>
 
    Request: `POST /api/v1/customers/1/subscriptions`
+   <br>
    Request Body: 
+  <br>
    <img src=".github/create_request_body.png">
    <br>
    Response:
@@ -112,7 +114,9 @@ However, for the `post` and `patch` requests, you will need to use postman to te
    <hr>
 
    Request: `PATCH /api/v1/customers/1/subscriptions/2`
+   <br>
    Request Body: 
+  <br>
    <img src=".github/update_request_body.png">
    <br>
    Response:
