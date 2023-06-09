@@ -144,7 +144,7 @@ RSpec.describe "Customer's Subscriptions" do
 
       expect(error).to be_a(Hash)
       expect(error.keys).to eq([:title, :errors])
-      expect(error[:errors][0]).to eq("Validation failed: Tea must exist, Customer must exist")
+      expect(error[:errors][0]).to eq("Validation failed: Tea must exist")
     end
   end
 end
